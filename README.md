@@ -21,6 +21,7 @@ It’s being built following best practices with:
 - 🧭 Navigation using **Compose Navigation**
 - 🎨 Material 3 theming
 
+
 ## Tech Stack
 - Kotlin
 - Jetpack Compose
