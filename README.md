@@ -1,8 +1,7 @@
 # 🍳 CookInt  
-*A modern recipe discovery app built with Jetpack Compose, Clean Architecture, and Hilt.*  
+*A modern recipe discovery app built with Jetpack Compose, Clean Architecture and Hilt, where users can explore recipes, bookmark favorites, and enjoy offline access*  
 
-CookInt is an Android app where users can explore recipes, bookmark favorites, and enjoy offline access.  
-It’s being built step by step as part of my Android learning journey, following best practices with:  
+It’s being built following best practices with:  
 - ✅ **Kotlin + Jetpack Compose** for UI  
 - ✅ **Hilt** for dependency injection  
 - ✅ **MVVM + Clean Architecture** for scalability  
@@ -10,10 +9,6 @@ It’s being built step by step as part of my Android learning journey, followin
 - ✅ **Room + Retrofit** for offline-first data  
 
 ---
-# CookInt
-
-CookInt is a learning project where I’m building a modern Android recipe app from scratch.  
-It fetches recipes from a remote API, supports user login via Firebase, and lets users save and bookmark recipes for offline access.  
 
 ## Features
 - 📱 Built entirely with **Jetpack Compose**
