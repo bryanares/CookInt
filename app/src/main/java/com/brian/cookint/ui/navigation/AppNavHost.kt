@@ -9,6 +9,7 @@ import com.brian.cookint.ui.screens.auth.RegisterScreen
 import com.brian.cookint.ui.screens.bookmarks.BookMarkScreen
 import com.brian.cookint.ui.screens.details.RecipeDetailScreen
 import com.brian.cookint.ui.screens.home.HomeScreen
+import com.brian.cookint.ui.screens.profile.ProfileScreen
 import com.brian.cookint.ui.screens.splash.SplashScreen
 
 @Composable
@@ -34,6 +35,9 @@ fun AppNavHost(navController: NavHostController) {
         }
         composable(NavigationScreen.Bookmarks.route) {
             BookMarkScreen()
+        }
+        composable(NavigationScreen.Profile.route) {
+            ProfileScreen()
         }
     }
 }
